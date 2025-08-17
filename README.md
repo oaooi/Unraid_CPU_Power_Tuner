@@ -21,15 +21,19 @@ A Simple Script to Tune CPU Power Settings
 
 ## 安装与设置
 
-1.  **存放手动脚本**
+1.  **存放交互式脚本**
     将 `cpu_power_tuner_interact.sh` 这一个文件放置在 Unraid 服务器的固定目录中，推荐使用 `/mnt/user/system/scripts/`。
-
-2.  **授予执行权限**
-    打开 Unraid 终端，为你存放的手动脚本添加执行权限：
     ```bash
+    mkdir -p /mnt/user/system/scripts
+    cd /mnt/user/system/scripts
+    wget https://raw.githubusercontent.com/zhaxingyu/Unraid_CPU_Power_Tuner/refs/heads/main/cpu_power_tuner_interact.sh
     chmod +x /mnt/user/system/scripts/cpu_power_tuner_interact.sh
     ```
 
+2.  **运行脚本**，输入你存放脚本的路径并回车：
+    ```bash
+    ./cpu_power_tuner_interact.sh
+    ```
 ---
 
 ## 如何使用
@@ -195,9 +199,11 @@ echo "--- [CPU POWER TUNER] 所有配置已应用完成 ---"
 1.  **打开 Unraid 终端** (WebUI 右上角的 `>`\_ 图标)。
 2.  **运行脚本**，输入你存放脚本的路径并回车：
     ```bash
-    /mnt/user/system/scripts/cpu_power_tuner_interact.sh
+    bash /mnt/user/system/scripts/cpu_power_tuner_interact.sh
     ```
 3.  **根据菜单操作**，脚本会显示当前的 CPU 状态和可用的操作选项。
+
+<img width="867" height="697" alt="image" src="https://github.com/user-attachments/assets/b1a42b02-3188-4e51-a0d1-ac43a134d247" />
 
 ---
 
