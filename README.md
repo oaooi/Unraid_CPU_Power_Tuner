@@ -26,7 +26,7 @@ A Simple Script to Tune CPU Power Settings
     ```bash
     mkdir -p /mnt/user/system/scripts
     cd /mnt/user/system/scripts
-    wget https://raw.githubusercontent.com/zhaxingyu/Unraid_CPU_Power_Tuner/refs/heads/main/cpu_power_tuner_interact.sh
+    wget https://raw.githubusercontent.com/oaooi/Unraid_CPU_Power_Tuner/refs/heads/main/cpu_power_tuner_interact.sh
     chmod +x /mnt/user/system/scripts/cpu_power_tuner_interact.sh
     ```
 
@@ -67,7 +67,7 @@ A Simple Script to Tune CPU Power Settings
       # 3. 添加一个新脚本
       # 4. 将该脚本的 Schedule (计划) 设置为 "At Startup of Array" (阵列启动时)。
       #
-      # 作者: @moonlight
+      # 作者: @oaooi
       # ==============================================================================
       
       
